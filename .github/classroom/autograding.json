@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "LinkedList::ReverseIterative",
+      "setup": "",
+      "run": "ctest -VVV --output-on-failure --test-dir build -R \"LinkedList::ReverseIterative\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "LinkedList::ReverseRecursive",
+      "setup": "",
+      "run": "ctest -VVV --output-on-failure --test-dir build -R \"LinkedList::ReverseRecursive\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": 1
+    }
+  ]
+}
